@@ -1,0 +1,501 @@
+EmployeeID,Department,JobRole,Age,YearsAtCompany,MonthlyIncome,JobSatisfaction,Attrition
+1,Research & Development,Sales Executive,28,6,11811,1,No
+2,Human Resources,Laboratory Technician,59,17,9803,1,No
+3,Research & Development,Laboratory Technician,27,11,10572,2,No
+4,Human Resources,Research Scientist,48,9,11867,1,No
+5,Sales,Healthcare Representative,23,8,3229,1,Yes
+6,Human Resources,Healthcare Representative,23,4,10593,2,No
+7,Research & Development,Sales Executive,40,9,4792,3,Yes
+8,Human Resources,Healthcare Representative,32,14,10823,1,No
+9,Sales,Sales Executive,49,12,5859,1,No
+10,Sales,Research Scientist,38,2,8632,1,No
+11,Human Resources,Sales Executive,47,17,3795,3,No
+12,Sales,Sales Executive,41,7,11220,3,No
+13,Research & Development,Sales Executive,40,18,9217,4,Yes
+14,Sales,Healthcare Representative,37,4,10457,1,Yes
+15,Human Resources,Sales Executive,59,9,11968,1,No
+16,Research & Development,Research Scientist,29,19,10384,1,No
+17,Sales,Healthcare Representative,51,16,6955,2,No
+18,Human Resources,Laboratory Technician,50,15,10333,1,No
+19,Human Resources,Manager,56,0,4110,4,No
+20,Research & Development,Laboratory Technician,60,12,7882,4,No
+21,Research & Development,Manager,55,17,11999,4,No
+22,Human Resources,Healthcare Representative,35,4,4014,3,No
+23,Human Resources,Manager,46,5,7038,4,Yes
+24,Sales,Research Scientist,54,0,6060,2,No
+25,Research & Development,Research Scientist,45,19,7344,1,No
+26,Research & Development,Sales Executive,60,4,6135,3,No
+27,Sales,Manager,22,10,10299,2,No
+28,Research & Development,Manager,45,4,9321,2,Yes
+29,Sales,Healthcare Representative,29,20,3387,4,No
+30,Sales,Healthcare Representative,48,15,7936,4,No
+31,Human Resources,Manager,59,8,6684,2,Yes
+32,Research & Development,Research Scientist,47,11,7152,1,Yes
+33,Research & Development,Sales Executive,27,6,9246,2,No
+34,Human Resources,Research Scientist,38,20,7764,2,No
+35,Sales,Research Scientist,41,6,4945,4,No
+36,Human Resources,Research Scientist,39,13,7929,3,No
+37,Research & Development,Laboratory Technician,33,8,11564,3,No
+38,Human Resources,Laboratory Technician,25,13,5829,1,No
+39,Human Resources,Research Scientist,27,19,3136,4,No
+40,Research & Development,Research Scientist,34,15,5822,1,No
+41,Research & Development,Manager,44,7,6864,2,No
+42,Human Resources,Manager,32,3,11293,3,No
+43,Sales,Sales Executive,23,14,8763,4,No
+44,Research & Development,Healthcare Representative,36,16,4004,3,No
+45,Research & Development,Healthcare Representative,34,2,10439,4,No
+46,Sales,Research Scientist,58,11,5496,4,No
+47,Human Resources,Research Scientist,50,17,5361,1,Yes
+48,Sales,Healthcare Representative,44,9,6226,2,Yes
+49,Research & Development,Sales Executive,46,6,3271,1,Yes
+50,Human Resources,Laboratory Technician,47,4,4711,2,No
+51,Human Resources,Laboratory Technician,29,4,3975,2,No
+52,Research & Development,Research Scientist,29,19,2976,2,No
+53,Sales,Research Scientist,28,0,8627,4,No
+54,Human Resources,Laboratory Technician,50,11,8129,3,Yes
+55,Human Resources,Research Scientist,51,3,3248,1,No
+56,Human Resources,Research Scientist,30,2,4118,4,No
+57,Sales,Research Scientist,49,19,9568,4,No
+58,Human Resources,Sales Executive,54,18,6023,2,Yes
+59,Human Resources,Sales Executive,55,10,11752,1,No
+60,Sales,Sales Executive,31,0,6684,4,No
+61,Sales,Sales Executive,43,13,5903,1,No
+62,Sales,Sales Executive,56,13,11252,3,No
+63,Human Resources,Manager,49,12,3531,4,No
+64,Sales,Research Scientist,54,20,5398,1,No
+65,Sales,Manager,45,15,4969,1,No
+66,Sales,Healthcare Representative,47,16,5030,4,No
+67,Research & Development,Manager,41,9,10679,1,No
+68,Research & Development,Manager,38,12,4572,3,Yes
+69,Research & Development,Manager,49,16,2869,4,No
+70,Sales,Healthcare Representative,48,12,8686,3,No
+71,Human Resources,Sales Executive,46,12,4393,4,No
+72,Research & Development,Sales Executive,52,16,6945,1,No
+73,Research & Development,Manager,42,14,8338,3,Yes
+74,Human Resources,Research Scientist,22,16,3853,4,No
+75,Research & Development,Research Scientist,40,6,10829,3,No
+76,Research & Development,Research Scientist,31,1,8422,1,No
+77,Sales,Laboratory Technician,23,1,5787,4,No
+78,Sales,Healthcare Representative,51,10,10525,3,No
+79,Sales,Healthcare Representative,54,0,11242,2,Yes
+80,Sales,Research Scientist,50,11,10929,4,No
+81,Sales,Sales Executive,45,8,6922,4,No
+82,Research & Development,Healthcare Representative,60,1,8665,2,No
+83,Human Resources,Research Scientist,25,3,10980,2,No
+84,Sales,Healthcare Representative,30,12,3494,4,No
+85,Research & Development,Research Scientist,25,0,7399,3,Yes
+86,Research & Development,Manager,51,4,9117,1,No
+87,Human Resources,Sales Executive,42,12,11532,1,Yes
+88,Research & Development,Research Scientist,30,16,4137,4,No
+89,Sales,Research Scientist,38,8,10915,2,No
+90,Research & Development,Sales Executive,42,4,2557,4,No
+91,Sales,Manager,28,14,10326,1,Yes
+92,Research & Development,Sales Executive,36,4,8026,3,No
+93,Sales,Manager,48,19,7951,3,No
+94,Sales,Healthcare Representative,36,14,2511,2,No
+95,Human Resources,Research Scientist,29,6,11062,2,No
+96,Human Resources,Sales Executive,31,11,9197,3,No
+97,Research & Development,Research Scientist,52,9,3026,2,No
+98,Human Resources,Sales Executive,38,2,11652,1,Yes
+99,Human Resources,Research Scientist,50,9,8108,2,No
+100,Research & Development,Laboratory Technician,23,15,8100,3,No
+101,Human Resources,Research Scientist,60,16,3075,2,No
+102,Human Resources,Laboratory Technician,60,4,7550,2,No
+103,Sales,Manager,22,9,5629,2,No
+104,Sales,Research Scientist,27,1,8324,2,No
+105,Sales,Manager,35,3,5371,3,No
+106,Human Resources,Laboratory Technician,32,10,10189,2,No
+107,Research & Development,Laboratory Technician,25,6,6750,1,Yes
+108,Human Resources,Research Scientist,23,8,5911,1,No
+109,Sales,Manager,45,11,11640,3,No
+110,Human Resources,Laboratory Technician,42,17,8429,4,No
+111,Research & Development,Manager,33,3,10765,3,No
+112,Human Resources,Laboratory Technician,40,0,8250,2,Yes
+113,Human Resources,Laboratory Technician,52,0,8308,4,No
+114,Human Resources,Healthcare Representative,38,9,9142,1,Yes
+115,Sales,Laboratory Technician,44,13,7288,4,No
+116,Research & Development,Healthcare Representative,22,4,6255,4,No
+117,Human Resources,Manager,25,4,6730,4,Yes
+118,Research & Development,Healthcare Representative,33,19,9071,4,Yes
+119,Research & Development,Sales Executive,51,12,8231,2,Yes
+120,Research & Development,Sales Executive,39,12,9496,2,No
+121,Sales,Laboratory Technician,58,11,3868,3,No
+122,Research & Development,Sales Executive,40,15,9141,2,No
+123,Human Resources,Research Scientist,40,5,4420,4,No
+124,Human Resources,Healthcare Representative,33,11,11250,1,No
+125,Human Resources,Healthcare Representative,56,10,5817,1,No
+126,Research & Development,Research Scientist,23,13,5856,4,No
+127,Sales,Healthcare Representative,56,12,3654,3,No
+128,Research & Development,Research Scientist,27,1,9560,3,Yes
+129,Sales,Sales Executive,46,13,5965,3,No
+130,Research & Development,Sales Executive,59,17,8054,4,No
+131,Human Resources,Research Scientist,42,6,3646,4,No
+132,Human Resources,Sales Executive,50,17,3822,4,Yes
+133,Research & Development,Manager,42,12,7107,4,No
+134,Human Resources,Manager,38,1,11511,3,No
+135,Research & Development,Research Scientist,28,16,9642,1,No
+136,Sales,Sales Executive,43,20,10552,2,No
+137,Research & Development,Sales Executive,56,16,11945,3,Yes
+138,Research & Development,Healthcare Representative,27,12,7431,4,No
+139,Human Resources,Manager,44,2,7537,4,No
+140,Research & Development,Healthcare Representative,27,0,4633,3,No
+141,Human Resources,Sales Executive,53,2,3082,3,No
+142,Research & Development,Manager,47,14,11116,4,No
+143,Research & Development,Manager,34,17,3396,2,No
+144,Human Resources,Research Scientist,32,19,3209,3,No
+145,Human Resources,Research Scientist,40,18,6995,4,Yes
+146,Research & Development,Laboratory Technician,51,20,8935,4,No
+147,Human Resources,Sales Executive,43,14,10290,2,Yes
+148,Sales,Laboratory Technician,43,18,5224,4,Yes
+149,Human Resources,Manager,25,8,10292,4,No
+150,Research & Development,Manager,26,17,6202,1,No
+151,Sales,Laboratory Technician,23,14,7954,4,Yes
+152,Research & Development,Healthcare Representative,57,18,10971,3,No
+153,Research & Development,Manager,57,8,3030,1,No
+154,Human Resources,Manager,32,11,9655,4,Yes
+155,Human Resources,Healthcare Representative,50,13,8362,2,No
+156,Research & Development,Research Scientist,38,13,11209,2,No
+157,Sales,Research Scientist,58,6,3447,4,Yes
+158,Research & Development,Manager,32,8,3656,2,No
+159,Sales,Healthcare Representative,53,4,7556,1,Yes
+160,Research & Development,Healthcare Representative,58,11,5851,1,No
+161,Human Resources,Laboratory Technician,56,12,8560,2,Yes
+162,Research & Development,Sales Executive,29,18,4802,3,Yes
+163,Research & Development,Research Scientist,24,4,5776,1,Yes
+164,Research & Development,Research Scientist,28,7,11706,4,Yes
+165,Sales,Research Scientist,37,16,4650,1,Yes
+166,Sales,Research Scientist,35,10,8878,3,Yes
+167,Research & Development,Sales Executive,27,1,4956,4,No
+168,Sales,Research Scientist,54,0,9490,1,No
+169,Human Resources,Laboratory Technician,50,16,7435,3,No
+170,Research & Development,Laboratory Technician,27,13,10365,1,Yes
+171,Research & Development,Healthcare Representative,56,11,9396,1,No
+172,Sales,Research Scientist,49,20,4928,3,No
+173,Research & Development,Healthcare Representative,23,20,4632,1,No
+174,Research & Development,Healthcare Representative,57,9,11813,4,No
+175,Human Resources,Healthcare Representative,57,19,10015,2,No
+176,Research & Development,Laboratory Technician,57,20,8472,2,No
+177,Research & Development,Healthcare Representative,60,6,8590,1,No
+178,Human Resources,Laboratory Technician,46,18,10131,3,No
+179,Research & Development,Manager,24,14,8881,4,No
+180,Sales,Sales Executive,22,2,7452,3,No
+181,Sales,Sales Executive,39,17,5088,3,Yes
+182,Human Resources,Manager,58,15,4987,3,No
+183,Sales,Manager,28,5,4818,4,No
+184,Human Resources,Manager,46,20,9175,3,No
+185,Human Resources,Manager,22,0,7322,1,Yes
+186,Research & Development,Healthcare Representative,40,9,10029,4,Yes
+187,Sales,Manager,59,19,9274,1,No
+188,Human Resources,Laboratory Technician,49,8,6008,2,No
+189,Research & Development,Research Scientist,23,19,9503,2,Yes
+190,Sales,Manager,49,8,9153,4,No
+191,Research & Development,Research Scientist,38,17,8279,3,No
+192,Human Resources,Manager,53,1,9170,4,No
+193,Sales,Laboratory Technician,40,3,11784,2,No
+194,Human Resources,Laboratory Technician,38,14,4397,1,No
+195,Human Resources,Sales Executive,48,6,8424,3,No
+196,Human Resources,Research Scientist,45,18,8094,1,No
+197,Research & Development,Manager,58,19,6962,1,No
+198,Sales,Laboratory Technician,30,3,5003,3,No
+199,Research & Development,Research Scientist,51,0,9903,2,Yes
+200,Sales,Healthcare Representative,47,12,8887,1,No
+201,Human Resources,Sales Executive,26,2,8118,4,No
+202,Research & Development,Research Scientist,48,10,9932,1,No
+203,Research & Development,Laboratory Technician,28,7,10566,4,No
+204,Human Resources,Sales Executive,57,11,2528,2,No
+205,Research & Development,Research Scientist,53,0,3027,1,No
+206,Sales,Manager,44,11,10438,2,No
+207,Sales,Manager,24,8,11387,2,No
+208,Research & Development,Healthcare Representative,50,19,10571,3,No
+209,Sales,Sales Executive,59,17,5728,2,Yes
+210,Research & Development,Manager,44,15,4672,4,No
+211,Sales,Healthcare Representative,38,7,8269,3,No
+212,Sales,Healthcare Representative,57,20,10592,2,Yes
+213,Research & Development,Manager,60,2,5276,3,No
+214,Sales,Sales Executive,43,3,7893,1,No
+215,Research & Development,Manager,34,16,5043,1,No
+216,Sales,Research Scientist,34,18,4857,1,No
+217,Human Resources,Sales Executive,35,15,2778,2,Yes
+218,Research & Development,Laboratory Technician,50,9,4565,3,No
+219,Research & Development,Laboratory Technician,38,4,7413,1,No
+220,Human Resources,Research Scientist,24,8,4943,1,No
+221,Human Resources,Healthcare Representative,35,9,8729,2,No
+222,Human Resources,Sales Executive,39,10,2901,4,No
+223,Research & Development,Sales Executive,30,6,8044,4,Yes
+224,Human Resources,Healthcare Representative,23,16,4402,3,No
+225,Human Resources,Research Scientist,34,3,7038,4,No
+226,Human Resources,Manager,34,19,2566,3,No
+227,Human Resources,Research Scientist,23,15,5383,1,Yes
+228,Research & Development,Research Scientist,25,1,5798,1,No
+229,Research & Development,Sales Executive,59,4,9398,2,No
+230,Research & Development,Sales Executive,32,7,11499,4,No
+231,Sales,Manager,52,7,7625,2,No
+232,Human Resources,Manager,27,11,2841,2,No
+233,Research & Development,Laboratory Technician,58,2,3272,3,No
+234,Human Resources,Healthcare Representative,46,1,10698,1,Yes
+235,Sales,Healthcare Representative,56,19,7520,1,No
+236,Sales,Manager,26,16,4418,3,No
+237,Research & Development,Laboratory Technician,60,17,3385,4,No
+238,Sales,Laboratory Technician,54,13,9373,2,No
+239,Sales,Manager,28,16,2624,2,No
+240,Sales,Sales Executive,54,8,7514,1,No
+241,Sales,Research Scientist,51,10,8485,2,Yes
+242,Human Resources,Research Scientist,60,15,3023,2,No
+243,Sales,Laboratory Technician,52,2,7588,2,No
+244,Human Resources,Sales Executive,28,7,4518,2,No
+245,Research & Development,Manager,42,4,9486,4,Yes
+246,Sales,Sales Executive,59,19,3152,2,Yes
+247,Sales,Research Scientist,33,7,11619,4,No
+248,Sales,Laboratory Technician,42,0,6420,1,No
+249,Human Resources,Sales Executive,57,2,6082,4,No
+250,Sales,Manager,43,3,8306,4,Yes
+251,Research & Development,Manager,23,13,8222,4,Yes
+252,Human Resources,Manager,53,3,5828,2,No
+253,Sales,Healthcare Representative,31,11,7671,1,No
+254,Research & Development,Sales Executive,27,19,9088,1,Yes
+255,Research & Development,Healthcare Representative,54,0,6237,4,No
+256,Human Resources,Sales Executive,57,5,9325,4,No
+257,Sales,Laboratory Technician,25,7,8477,4,No
+258,Human Resources,Laboratory Technician,55,11,3493,2,No
+259,Sales,Research Scientist,32,5,6220,3,No
+260,Research & Development,Laboratory Technician,31,9,5885,4,No
+261,Human Resources,Manager,48,1,11670,1,No
+262,Human Resources,Laboratory Technician,24,5,10021,1,Yes
+263,Research & Development,Research Scientist,36,19,5815,4,Yes
+264,Research & Development,Laboratory Technician,46,2,5009,1,No
+265,Sales,Laboratory Technician,49,13,5427,2,Yes
+266,Human Resources,Healthcare Representative,43,14,4978,3,Yes
+267,Human Resources,Research Scientist,56,6,10264,1,No
+268,Human Resources,Manager,24,11,2554,4,No
+269,Research & Development,Manager,53,9,8831,4,No
+270,Human Resources,Laboratory Technician,54,2,2873,4,No
+271,Research & Development,Sales Executive,42,15,5182,2,No
+272,Research & Development,Sales Executive,34,9,3342,1,Yes
+273,Sales,Manager,50,2,9882,1,No
+274,Human Resources,Healthcare Representative,51,9,5220,1,No
+275,Research & Development,Manager,56,3,4645,2,No
+276,Human Resources,Laboratory Technician,32,0,4590,4,No
+277,Research & Development,Manager,52,8,10131,4,No
+278,Research & Development,Manager,53,18,11136,3,Yes
+279,Human Resources,Healthcare Representative,24,4,5474,4,No
+280,Sales,Sales Executive,27,4,8845,4,No
+281,Human Resources,Manager,39,19,7676,3,No
+282,Sales,Manager,37,15,7376,1,No
+283,Sales,Laboratory Technician,33,11,7295,4,No
+284,Research & Development,Manager,45,17,9198,3,No
+285,Human Resources,Sales Executive,50,1,10329,1,No
+286,Human Resources,Manager,59,12,3095,3,Yes
+287,Human Resources,Laboratory Technician,53,17,4473,1,Yes
+288,Sales,Manager,23,9,5984,3,No
+289,Research & Development,Laboratory Technician,38,1,2940,2,Yes
+290,Research & Development,Laboratory Technician,45,2,5724,2,No
+291,Human Resources,Manager,23,17,3033,3,No
+292,Sales,Healthcare Representative,51,4,7223,2,No
+293,Sales,Manager,30,5,11462,1,No
+294,Research & Development,Sales Executive,45,20,7964,1,No
+295,Human Resources,Laboratory Technician,29,13,3949,2,No
+296,Human Resources,Research Scientist,25,19,4611,2,No
+297,Human Resources,Healthcare Representative,31,18,9858,3,No
+298,Research & Development,Sales Executive,35,18,10743,2,Yes
+299,Human Resources,Healthcare Representative,35,2,2679,4,No
+300,Research & Development,Sales Executive,37,1,6887,1,No
+301,Human Resources,Laboratory Technician,43,13,10396,1,No
+302,Sales,Laboratory Technician,43,13,8947,4,No
+303,Sales,Laboratory Technician,60,11,6605,3,No
+304,Human Resources,Research Scientist,28,16,11045,3,No
+305,Research & Development,Sales Executive,56,9,11289,1,No
+306,Research & Development,Laboratory Technician,34,0,7848,2,No
+307,Research & Development,Laboratory Technician,39,10,9923,4,No
+308,Research & Development,Sales Executive,45,12,11948,1,No
+309,Research & Development,Laboratory Technician,50,1,9483,4,No
+310,Research & Development,Healthcare Representative,45,3,2777,4,Yes
+311,Research & Development,Laboratory Technician,22,15,7733,2,Yes
+312,Sales,Sales Executive,58,15,4343,4,No
+313,Sales,Research Scientist,54,13,7567,3,No
+314,Human Resources,Research Scientist,59,13,9882,2,Yes
+315,Human Resources,Research Scientist,39,19,9308,3,No
+316,Sales,Research Scientist,30,17,7711,2,Yes
+317,Human Resources,Laboratory Technician,24,16,6914,3,Yes
+318,Sales,Laboratory Technician,31,7,10728,4,No
+319,Research & Development,Manager,44,10,7824,3,No
+320,Research & Development,Healthcare Representative,33,7,4635,4,No
+321,Research & Development,Healthcare Representative,56,15,4603,2,Yes
+322,Sales,Healthcare Representative,31,6,7178,2,No
+323,Human Resources,Laboratory Technician,41,2,10747,3,No
+324,Sales,Sales Executive,31,5,4032,4,No
+325,Human Resources,Laboratory Technician,54,4,9381,3,No
+326,Human Resources,Sales Executive,33,9,6515,1,Yes
+327,Research & Development,Sales Executive,50,9,7793,3,No
+328,Human Resources,Research Scientist,38,16,3412,2,No
+329,Research & Development,Sales Executive,43,16,6131,3,No
+330,Research & Development,Research Scientist,43,1,11579,3,No
+331,Human Resources,Healthcare Representative,56,3,8492,2,No
+332,Human Resources,Manager,53,9,9361,4,No
+333,Human Resources,Manager,42,9,9780,2,Yes
+334,Human Resources,Laboratory Technician,27,17,5132,3,No
+335,Human Resources,Healthcare Representative,44,5,4634,3,No
+336,Research & Development,Laboratory Technician,32,3,5399,3,Yes
+337,Sales,Sales Executive,22,19,2758,2,Yes
+338,Sales,Research Scientist,35,5,5307,3,No
+339,Sales,Sales Executive,46,4,6636,1,No
+340,Human Resources,Manager,32,12,5284,1,No
+341,Research & Development,Research Scientist,35,6,2852,2,Yes
+342,Research & Development,Research Scientist,56,0,8578,4,No
+343,Human Resources,Laboratory Technician,55,13,2742,4,Yes
+344,Research & Development,Research Scientist,56,2,5105,3,No
+345,Human Resources,Manager,29,0,10874,4,No
+346,Research & Development,Research Scientist,25,20,4138,2,No
+347,Sales,Manager,35,12,5876,4,No
+348,Sales,Sales Executive,51,19,2767,3,No
+349,Research & Development,Manager,24,17,7376,2,Yes
+350,Research & Development,Research Scientist,37,12,8326,4,No
+351,Research & Development,Sales Executive,42,5,11028,3,Yes
+352,Human Resources,Manager,41,13,4591,1,No
+353,Research & Development,Manager,29,0,10769,1,No
+354,Sales,Healthcare Representative,51,13,7913,2,Yes
+355,Human Resources,Research Scientist,22,11,5016,1,Yes
+356,Sales,Healthcare Representative,40,17,6895,4,No
+357,Human Resources,Sales Executive,29,2,4207,2,No
+358,Research & Development,Healthcare Representative,24,19,7690,4,No
+359,Human Resources,Laboratory Technician,26,15,11475,1,No
+360,Human Resources,Laboratory Technician,55,13,7291,1,No
+361,Sales,Manager,44,8,5520,2,No
+362,Research & Development,Manager,26,15,9485,1,No
+363,Sales,Laboratory Technician,37,7,9866,2,No
+364,Human Resources,Manager,57,7,5182,1,No
+365,Human Resources,Sales Executive,59,5,10000,3,No
+366,Human Resources,Healthcare Representative,55,19,11739,4,No
+367,Human Resources,Sales Executive,23,14,9491,3,No
+368,Research & Development,Healthcare Representative,29,10,6830,4,Yes
+369,Human Resources,Research Scientist,35,4,6794,3,Yes
+370,Sales,Sales Executive,54,5,9472,1,No
+371,Sales,Laboratory Technician,59,13,11958,3,No
+372,Research & Development,Sales Executive,49,3,5948,1,No
+373,Human Resources,Laboratory Technician,33,11,7039,2,No
+374,Human Resources,Research Scientist,24,4,7553,2,Yes
+375,Human Resources,Laboratory Technician,29,13,9755,4,No
+376,Sales,Laboratory Technician,25,1,9098,4,No
+377,Sales,Healthcare Representative,32,16,11544,3,No
+378,Sales,Sales Executive,23,7,8319,4,No
+379,Sales,Laboratory Technician,23,14,4841,3,No
+380,Human Resources,Manager,55,3,8412,1,Yes
+381,Human Resources,Laboratory Technician,47,6,6783,2,No
+382,Sales,Laboratory Technician,33,15,6918,2,No
+383,Human Resources,Research Scientist,41,15,8621,2,No
+384,Sales,Healthcare Representative,50,11,4461,2,No
+385,Sales,Manager,58,14,8728,3,No
+386,Research & Development,Research Scientist,31,14,7468,3,No
+387,Human Resources,Research Scientist,51,8,11319,3,No
+388,Research & Development,Laboratory Technician,39,10,7830,3,No
+389,Human Resources,Sales Executive,27,1,7679,4,No
+390,Research & Development,Research Scientist,54,11,5125,4,Yes
+391,Human Resources,Sales Executive,56,3,4856,4,No
+392,Research & Development,Laboratory Technician,50,19,5492,1,No
+393,Human Resources,Laboratory Technician,58,2,6866,1,No
+394,Human Resources,Healthcare Representative,31,11,8082,2,No
+395,Human Resources,Manager,45,10,4516,1,No
+396,Sales,Manager,46,16,7646,3,Yes
+397,Human Resources,Sales Executive,30,4,11009,3,No
+398,Human Resources,Laboratory Technician,30,4,5140,2,Yes
+399,Human Resources,Research Scientist,37,3,3203,1,Yes
+400,Sales,Healthcare Representative,54,4,5470,2,No
+401,Human Resources,Sales Executive,23,11,8742,2,No
+402,Sales,Manager,45,18,8806,2,Yes
+403,Human Resources,Laboratory Technician,58,18,8563,1,No
+404,Sales,Healthcare Representative,28,16,10643,1,No
+405,Human Resources,Research Scientist,41,4,7607,2,No
+406,Human Resources,Research Scientist,57,5,7052,2,No
+407,Sales,Manager,27,6,9867,1,No
+408,Sales,Sales Executive,55,10,9565,1,No
+409,Sales,Manager,48,15,3814,2,Yes
+410,Research & Development,Manager,57,1,10400,2,No
+411,Sales,Healthcare Representative,49,19,9968,1,No
+412,Sales,Laboratory Technician,22,18,5857,3,No
+413,Human Resources,Laboratory Technician,52,11,9381,1,No
+414,Research & Development,Manager,46,19,7314,2,No
+415,Human Resources,Manager,56,16,11783,4,No
+416,Human Resources,Research Scientist,35,14,5251,3,No
+417,Research & Development,Research Scientist,39,9,9716,1,No
+418,Human Resources,Laboratory Technician,32,14,3943,2,No
+419,Research & Development,Manager,58,2,8201,4,No
+420,Sales,Research Scientist,48,10,3191,1,No
+421,Sales,Research Scientist,27,15,9054,4,No
+422,Human Resources,Manager,32,7,7786,3,No
+423,Research & Development,Sales Executive,60,18,11504,1,No
+424,Research & Development,Laboratory Technician,48,3,9375,1,Yes
+425,Sales,Laboratory Technician,32,9,4465,4,No
+426,Human Resources,Research Scientist,59,18,11977,1,No
+427,Human Resources,Laboratory Technician,54,14,10434,2,Yes
+428,Research & Development,Laboratory Technician,44,19,8649,1,No
+429,Sales,Healthcare Representative,37,4,6240,2,No
+430,Sales,Manager,46,16,7408,4,No
+431,Research & Development,Research Scientist,52,7,9452,4,No
+432,Research & Development,Manager,40,1,7059,4,No
+433,Research & Development,Healthcare Representative,54,18,6396,2,No
+434,Sales,Sales Executive,49,3,2770,4,No
+435,Human Resources,Research Scientist,32,4,6055,2,No
+436,Research & Development,Research Scientist,46,7,3081,2,No
+437,Sales,Sales Executive,48,8,2529,3,No
+438,Sales,Manager,59,5,8657,3,No
+439,Research & Development,Healthcare Representative,37,3,4941,1,No
+440,Research & Development,Healthcare Representative,24,5,6999,1,No
+441,Human Resources,Manager,25,17,8980,3,No
+442,Sales,Healthcare Representative,53,11,10376,3,No
+443,Human Resources,Laboratory Technician,27,19,10705,3,No
+444,Research & Development,Laboratory Technician,35,13,11921,2,No
+445,Human Resources,Research Scientist,46,3,8323,4,No
+446,Sales,Laboratory Technician,51,5,4751,1,No
+447,Research & Development,Laboratory Technician,45,17,8966,3,No
+448,Sales,Sales Executive,30,9,4978,1,Yes
+449,Human Resources,Laboratory Technician,22,5,4320,4,No
+450,Sales,Research Scientist,55,16,10034,2,No
+451,Sales,Laboratory Technician,41,13,2512,3,No
+452,Human Resources,Healthcare Representative,36,8,7378,4,No
+453,Sales,Laboratory Technician,60,17,6692,4,Yes
+454,Human Resources,Manager,38,7,4119,3,Yes
+455,Sales,Laboratory Technician,55,4,7196,3,No
+456,Research & Development,Research Scientist,34,12,4935,2,No
+457,Human Resources,Research Scientist,25,7,5017,2,No
+458,Research & Development,Laboratory Technician,59,14,8189,3,No
+459,Sales,Laboratory Technician,51,10,11377,2,No
+460,Human Resources,Laboratory Technician,49,4,8271,2,No
+461,Sales,Sales Executive,53,14,2765,3,No
+462,Human Resources,Sales Executive,59,18,9717,3,Yes
+463,Human Resources,Healthcare Representative,55,8,8389,3,Yes
+464,Research & Development,Research Scientist,40,7,6229,1,No
+465,Sales,Research Scientist,58,3,10085,4,No
+466,Sales,Research Scientist,60,10,9225,2,No
+467,Human Resources,Laboratory Technician,27,0,9887,3,No
+468,Sales,Healthcare Representative,28,16,9536,2,Yes
+469,Research & Development,Healthcare Representative,41,2,10340,4,No
+470,Human Resources,Research Scientist,31,14,5128,2,No
+471,Human Resources,Manager,41,7,3908,2,No
+472,Sales,Manager,53,2,8682,2,No
+473,Sales,Manager,44,11,7069,2,No
+474,Human Resources,Manager,59,1,7995,1,No
+475,Research & Development,Research Scientist,59,14,6946,3,Yes
+476,Sales,Research Scientist,47,15,11997,3,No
+477,Research & Development,Research Scientist,26,2,5441,4,No
+478,Research & Development,Laboratory Technician,58,9,6858,1,Yes
+479,Human Resources,Research Scientist,56,12,6330,4,No
+480,Human Resources,Sales Executive,48,10,9697,2,No
+481,Research & Development,Sales Executive,45,10,2804,2,No
+482,Sales,Laboratory Technician,37,9,10055,1,No
+483,Human Resources,Sales Executive,56,15,10619,1,No
+484,Research & Development,Sales Executive,32,18,4351,1,No
+485,Sales,Healthcare Representative,27,20,9296,3,No
+486,Sales,Healthcare Representative,43,13,5724,4,Yes
+487,Sales,Healthcare Representative,51,5,2763,2,No
+488,Human Resources,Manager,43,12,9960,1,No
+489,Research & Development,Laboratory Technician,30,1,7662,2,No
+490,Sales,Laboratory Technician,40,18,6334,3,No
+491,Human Resources,Healthcare Representative,36,19,11157,1,No
+492,Human Resources,Research Scientist,39,6,9209,4,No
+493,Research & Development,Research Scientist,46,4,4622,3,No
+494,Human Resources,Laboratory Technician,27,20,4454,1,No
+495,Human Resources,Manager,28,7,9743,4,No
+496,Research & Development,Research Scientist,35,20,3784,4,Yes
+497,Human Resources,Healthcare Representative,58,10,8363,3,No
+498,Sales,Research Scientist,31,18,3491,3,Yes
+499,Human Resources,Laboratory Technician,57,11,8492,4,Yes
+500,Sales,Laboratory Technician,36,12,7732,1,No
