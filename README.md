@@ -1,19 +1,19 @@
 # 📊 HR Employee Attrition & Retention Analysis (Google Data Analytics Capstone)
 
-This project explores employee attrition data to identify key factors that impact retention within a company. The goal is to help HR professionals understand which departments are most affected, how salary and job satisfaction influence employee decisions, and where proactive strategies can reduce turnover.
+This project explores employee attrition data to uncover patterns that help HR professionals understand why employees leave, which departments are most affected, and how salary and satisfaction levels contribute to turnover. It was completed as part of the Google Data Analytics Capstone to showcase real-world data storytelling using SQL, Excel, and Tableau.
 
 ---
 
 ## 🚀 Project Goal
 
-Analyze employee behavior and trends to uncover insights that can help reduce attrition and boost employee satisfaction.
+Help companies reduce employee attrition by identifying the key drivers behind turnover and developing data-informed retention strategies.
 
 ---
 
 ## 🔍 Key Questions Answered
 
-- Which departments and roles have the highest attrition rates?
-- Does higher salary reduce the likelihood of employees quitting?
+- Which departments and roles experience the most attrition?
+- Does higher salary reduce employee turnover?
 - Are employees with low job satisfaction more likely to leave?
 
 ---
@@ -22,32 +22,32 @@ Analyze employee behavior and trends to uncover insights that can help reduce at
 
 | Tool      | Purpose                                |
 |-----------|-----------------------------------------|
-| **SQL (BigQuery)** | Data cleaning and querying large datasets |
-| **Excel**          | Preprocessing and quick analysis         |
-| **Tableau**        | Visualization and interactive dashboards |
+| **SQL (BigQuery)** | Data cleaning and trend analysis |
+| **Excel**          | Initial data preprocessing        |
+| **Tableau**        | Visual analytics & dashboards     |
 
 ---
 
 ## 📂 Dataset Summary
 
 - **File:** `hr_attrition_data.csv`
-- **Rows:** 500 employee records
-- **Columns include:**
-  - `EmployeeID`: Unique identifier
-  - `Department`: Employee department
-  - `JobRole`: Employee job title
-  - `MonthlyIncome`: Salary
-  - `JobSatisfaction`: Rating (1–4)
-  - `Attrition`: Whether the employee left the company ("Yes"/"No")
-  - `YearsAtCompany`, `Age`, and other demographic data
+- **Records:** 500 employees
+- **Columns:**
+  - `EmployeeID`: Unique ID
+  - `Department`: Department name
+  - `JobRole`: Job title
+  - `MonthlyIncome`: Employee salary
+  - `YearsAtCompany`, `Age`, etc.
+  - `JobSatisfaction`: Score from 1 (low) to 4 (high)
+  - `Attrition`: "Yes" or "No" (left the company)
 
 ---
 
 ## 🧮 SQL Scripts Included
 
-- `data_cleaning.sql`: Formats data and handles missing values
-- `attrition_analysis.sql`: Identifies high-attrition departments and roles
-- `employee_retention.sql`: Analyzes impact of salary and job satisfaction
+- `data_cleaning.sql`: Cleans missing or incorrect values
+- `attrition_analysis.sql`: Highlights high-attrition departments
+- `employee_retention.sql`: Examines pay and satisfaction trends
 
 ---
 
@@ -62,34 +62,40 @@ Analyze employee behavior and trends to uncover insights that can help reduce at
 ### 📊 Salary Distribution
 ![Salary Distribution](HR-Employee-Attrition-Analysis/Salary_Distribution.png)
 
-### 😐 Job Satisfaction vs Attrition
+### 🙂 Job Satisfaction vs Attrition
 ![Job Satisfaction](HR-Employee-Attrition-Analysis/Job_Satisfaction_Attrition.png)
 
-> *(Dashboard built in Tableau: `HR_Attrition_Dashboard.twbx`)*
+---
+
+### 🌐 Final Dashboard Overview
+![Final Dashboard](HR-Employee-Attrition-Analysis/Final_Dashboard.png)
+
+> *(Dashboard created in Tableau: `HR_Attrition_Analysis.twbx`)*
 
 ---
 
 ## 📌 Key Insights
 
-- **Sales and HR** departments show the highest attrition.
-- Employees with **low job satisfaction (1 & 2)** are more likely to quit.
-- **Salary helps reduce attrition**, but plateaus at higher income levels.
+- The **Sales** and **HR** departments have the highest attrition rates
+- Employees with **low job satisfaction (1–2)** are far more likely to leave
+- **Salary influences retention** early on, but impact levels off over time
 
 ---
 
 ## 🧪 How to Recreate This Project
 
 1. Clone/download this repo
-2. Run the `.sql` scripts in BigQuery
-3. Load the dataset into Tableau
-4. Open the `.twbx` file to explore the interactive dashboard
+2. Open `.sql` scripts in BigQuery to explore queries
+3. Use the dataset (`.csv`) in Excel or Tableau
+4. Open the Tableau workbook (`.twbx`) to view the full dashboard
 
 ---
 
 ## 🔮 Future Enhancements
 
-- Add predictive modeling to estimate attrition risk per employee
-- Expand dataset to include work-life balance, promotion history, and engagement scores
+- Add machine learning to predict attrition risk
+- Include features like promotions, overtime, and job level
+- Expand survey data on work-life balance and stress levels
 
 ---
 
